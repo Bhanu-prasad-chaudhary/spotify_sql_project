@@ -1,4 +1,4 @@
-# Spotify Advanced SQL Project and Query Optimization P-6
+# Spotify Advanced SQL Project and Query Optimization 
 Project Category: Advanced
 [Click Here to get Dataset](https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset)
 
@@ -262,9 +262,9 @@ To improve query performance, we carried out the following optimization process:
 - **Graphical Performance Comparison**
     - A graph illustrating the comparison between the initial query execution time and the optimized query execution time after index creation.
     - **Graph view** shows the significant drop in both execution and planning times:
-      ![Performance Graph](https://github.com/Bhanu-prasad-chaudhary/spotify_sql_project/blob/main/spotify_graphical%20view%203.png)
-      ![Performance Graph](https://github.com/Bhanu-prasad-chaudhary/spotify_sql_project/blob/main/spotify_graphical%20view%202.png)
-      ![Performance Graph](https://github.com/Bhanu-prasad-chaudhary/spotify_sql_project/blob/main/spotify_graphical%20view%201.png)
+      ![Performance Graph](https://github.com/Bhanu-prasad-chaudhary/spotify_sql_project/blob/main/Spotify_graphical_view3.png)
+      ![Performance Graph](https://github.com/Bhanu-prasad-chaudhary/spotify_sql_project/blob/main/Spotify_graphical_view2.png)
+      ![Performance Graph](https://github.com/Bhanu-prasad-chaudhary/spotify_sql_project/blob/main/Spotify_graphical_view1.png)
 
 This optimization shows how indexing can drastically reduce query time, improving the overall performance of our database operations in the Spotify project.
 ---
