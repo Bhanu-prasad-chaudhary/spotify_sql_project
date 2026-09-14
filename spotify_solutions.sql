@@ -206,7 +206,7 @@ ORDER BY 2 DESC;
 
 
 ---Query Optimization
-EXPLAIN ANALYZE --et: 9.060ms pt:0.255
+EXPLAIN ANALYZE --et: 7.311ms pt:1.057ms
 SELECT
 	artist,
 	track,
@@ -221,8 +221,8 @@ DROP INDEX IF EXISTS artist_index;
 CREATE INDEX artist_index ON spotify(artist)
 
 --After indexing
-EXPLAIN ANALYZE --et: 1.263ms pt:2.572ms
-SELECT
+EXPLAIN ANALYZE --et: 0.894ms pt:2.005 ms
+	SELECT
 	artist,
 	track,
 	views
